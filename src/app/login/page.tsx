@@ -67,8 +67,8 @@ function Login() {
           />
         </div>
         <Button
-          className="w-min-[96px]"
-          label="Save"
+          className="w-min-[96px] !mt-10"
+          label="Login"
           disabled={login.isPending}
           loading={login.isPending}
           loadingIcon="pi pi-spin pi-spinner"

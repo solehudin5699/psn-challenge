@@ -91,7 +91,11 @@ function DashboardLayout({
   const end = (
     <div className="flex items-center gap-2">
       <InputText placeholder="Search" type="text" className="w-40 sm:w-auto" />
-      <Avatar image="https://avatars.githubusercontent.com/u/65361695?v=4" shape="circle" />
+      <Avatar
+        shape="circle"
+        icon="pi pi-user"
+        style={{ backgroundColor: '#2196F3', color: '#ffffff' }}
+      />
     </div>
   );
 
