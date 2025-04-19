@@ -1,5 +1,18 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## User Dummy
+
+```javascript
+ {
+    username: 'user1',
+    password: '12345Abc!',
+  },
+  {
+    username: 'user2',
+    password: '12345Abc!',
+  },
+```
+
 ## Getting Started
 
 First, run the development server:
