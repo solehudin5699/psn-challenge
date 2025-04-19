@@ -15,7 +15,7 @@ async function Layout({
   }
   return (
     <Suspense fallback={<Loading />}>
-      <DashboardLayout>{children}</DashboardLayout>;
+      <DashboardLayout>{children}</DashboardLayout>
     </Suspense>
   );
 }
